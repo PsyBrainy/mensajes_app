@@ -27,7 +27,7 @@ public class UsuarioService {
         UsuarioDAO.leerUsuarioDB();
     }
 
-    public static void editarUsuario(){
+    public static void editarUsuario(Usuario usuario){
         Scanner sc=new Scanner(System.in);
 
         System.out.println("Indique el nuevo correo");
