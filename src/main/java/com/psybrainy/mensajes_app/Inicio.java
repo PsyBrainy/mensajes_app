@@ -37,10 +37,7 @@ public class Inicio {
                     break;
                 default:
                     break;
-
             }
-
-
         }while(opcion!=5);
 
     }
