@@ -42,11 +42,11 @@ public class Inicio {
     }
 
     public static void menuSesion(Usuario usuario){
-        //instanciamos la clase scanner para leer datos
+
         Scanner sc = new Scanner(System.in);
         int opcion = 0;
 
-        //menú cuando inicia sesión
+
         do{
             System.out.println("===================");
             System.out.println("\n red social, hola "+usuario.getNombreCompleto()+" \n");
@@ -56,7 +56,7 @@ public class Inicio {
             System.out.println("4. editar perfil");
             System.out.println("5. ver usuarios");
             System.out.println("6. cerrar sesión \n");
-            //leemos la opción del usuario
+
             opcion = sc.nextInt();
 
             switch (opcion){
