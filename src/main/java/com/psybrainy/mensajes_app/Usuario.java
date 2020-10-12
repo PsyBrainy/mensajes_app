@@ -2,10 +2,10 @@ package com.psybrainy.mensajes_app;
 
 public class Usuario {
 
-    int idUsuario;
-    String correo;
-    String clave;
-    String nombreCompleto;
+    private int idUsuario;
+    private String correo;
+    private String clave;
+    private String nombreCompleto;
 
     public Usuario(){
     }

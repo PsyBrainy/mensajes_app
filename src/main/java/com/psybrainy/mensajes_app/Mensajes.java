@@ -2,10 +2,10 @@ package com.psybrainy.mensajes_app;
 
 public class Mensajes {
 
-    int idMensaje;
-    String mensaje;
-    String autorMensaje;
-    String fechaMensaje;
+    private int idMensaje;
+    private String mensaje;
+    private String autorMensaje;
+    private String fechaMensaje;
 
     public Mensajes(){
     }
