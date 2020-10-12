@@ -13,7 +13,7 @@ public class Inicio {
 
         do{
             System.out.println("------------------------------");
-            System.out.println("Apricacion de mensajes");
+            System.out.println("Aplicacion de mensajes");
             System.out.println("1. Crear mensaje");
             System.out.println("2. Listar mensajes");
             System.out.println("3. Editar mensaje");

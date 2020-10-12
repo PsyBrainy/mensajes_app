@@ -12,7 +12,7 @@ public class MensajesDAO {
         try(Connection conexion = dbConnect.getConnection()) {
             PreparedStatement ps=null;
             try {
-                String query="INSERT INTO `mensajes` (mensaje, id_usuario) VALUES (?,?);";
+                String query="INSERT INTO mensajes (mensaje, id_usuario) VALUES (?,?);";
                 ps=conexion.prepareStatement(query);
                 ps.setString(1,mensajes.getMensaje());
                 ps.setString(2,mensajes.getAutorMensaje());
@@ -29,9 +29,9 @@ public class MensajesDAO {
     public static void leerMensajeDB(){
         Conexion dbConnect = new Conexion();
 
-        PreparedStatement ps=null;
-        ResultSet rs=null;
         try(Connection conexion = dbConnect.getConnection()){
+            PreparedStatement ps=null;
+            ResultSet rs=null;
             String query="SELECT * FROM mensajes";
             ps=conexion.prepareStatement(query);
             rs=ps.executeQuery();
